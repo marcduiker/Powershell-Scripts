@@ -1,0 +1,46 @@
+﻿{
+    "_Comment": "The 'filename' elements in the FilesToDisable and FilesToEnable arrays can be added/removed. This configuration assumes Lucene is used a s a search provider (therefore all Solr configs are disabled). Source: https://doc.sitecore.net/Sitecore%20Experience%20Platform/xDB%20configuration/Configure%20a%20content%20management%20server",
+	"ConfigFiles": {
+        "Location" : "App_Config",
+		"FilesToDisable": [
+            {"filename": "Sitecore.Analytics.Processing.Aggregation.Services.config" },
+            {"filename": "Sitecore.Analytics.Processing.Services.config" },
+            {"filename": "Sitecore.Analytics.Tracking.Aggregation.config" },
+            {"filename": "Sitecore.Analytics.Tracking.Database.config" },
+            {"filename": "Sitecore.Analytics.ExcludeRobots.config" },
+            {"filename": "Sitecore.Analytics.Tracking.RobotDetection.config" },
+            {"filename": "Sitecore.PathAnalyzer.Processing.config" },
+			{"filename": "Sitecore.PathAnalyzer.StorageProviders.config"},
+			{"filename": "Sitecore.ContentTesting.Processing.Aggregation.config"},
+			{"filename": "Sitecore.ExperienceAnalytics.Aggregation.config"},
+			{"filename": "Sitecore.ExperienceAnalytics.Reduce.config"},
+			{"filename": "Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Web.config"}
+        ],
+        "FilesToEnable": [
+            {"filename": "Sitecore.Analytics.Automation.TimeoutProcessing.config.disabled" },
+            {"filename": "Sitecore.PathAnalyzer.RemoteClient.config.disabled" },
+            {"filename": "Sitecore.Xdb.Remote.Client.config.disabled" },
+			{"filename": "Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config.disabled" },
+			{"filename": "Sitecore.ContentSearch.Lucene.Index.Analytics.config.disabled" },
+			{"filename": "Sitecore.ContentSearch.Lucene.Index.Core.config.disabled" },
+			{"filename": "Sitecore.ContentSearch.Lucene.Index.Master.config.disabled" },
+			{"filename": "Sitecore.ContentSearch.Lucene.Index.Web.config.disabled" },
+			{"filename": "Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Master.config.disabled" },
+			{"filename": "Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.IndexConfiguration.config.disabled" },
+			{"filename": "Sitecore.ContentTesting.Lucene.IndexConfiguration.config.disabled" },
+			{"filename": "Sitecore.FXM.Lucene.Index.DomainsSearch.config.disabled" },
+			{"filename": "Sitecore.ListManagement.Lucene.Index.List.config.disabled" },
+			{"filename": "Sitecore.ListManagement.Lucene.IndexConfiguration.config.disabled" },
+			{"filename": "Sitecore.Social.Lucene.Index.Master.config.disabled" },
+			{"filename": "Sitecore.Social.Lucene.Index.Web.config.disabled" },
+			{"filename": "Sitecore.MvcAnalytics.config.disabled" }
+        ]
+    },
+	"AssemblyFiles": {
+		"Location" : "bin",
+		"FilesToDisable": [
+        ],
+        "FilesToEnable": [
+        ]
+	}
+}

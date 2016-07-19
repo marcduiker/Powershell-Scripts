@@ -1,0 +1,87 @@
+<project site="shipsc80rev140922" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>01-ShipTest</PackageName>
+      <Author>Marc Duiker</Author>
+      <Version>1</Version>
+      <Revision />
+      <License />
+      <Comment>Contains:
+nl-NL Language
+Custom Item A template
+3 Content items in two languages (en and nl-NL)</Comment>
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/Custom Item A1/{19F729F8-E63F-40CD-98C1-511D3009D4C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Custom Item A3/{2520C0E9-9E15-4845-BD73-F40598CB936F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Custom Item A2/{0FE5BE28-4B48-4CE3-AC75-2473A5E65820}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Languages/nl-NL/{4C263348-4E37-4419-91AC-2C4D4A6E777B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/{7AD19D12-3111-44D8-9F90-C8F7D3C2A46A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/{898DAFBF-BD35-481E-90AB-22B83C63D797}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/{594C5AFA-6742-462F-8C2F-BB41B65A7D4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/__Standard Values/{E2CFA0E7-A075-4CBD-809B-775980D00F25}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/Single line field A/{9652156B-583A-47E0-9D21-6D35E56FEDC1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/Multi line field A/{1B067078-7A7A-452B-A00E-B3E601EC1431}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/Image field A/{F17E57D4-0EEC-4E9E-88C0-65834AF232B0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/Integer field A/{9AF46510-11CB-43CF-BCFE-A615103D1343}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/ShipTest/Custom Template A/Data/Number field A/{7CFC1EA5-3D7E-462A-A3BB-C0F29BE61F1E}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries />
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
